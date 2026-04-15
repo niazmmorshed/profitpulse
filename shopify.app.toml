@@ -2,7 +2,7 @@
 
 client_id = "a8e86c3d2415c6b793cfd0ad8583c428"
 name = "profitpulse"
-application_url = "https://example.com"
+application_url = "https://profitpulse-production-901b.up.railway.app"
 embedded = true
 
 [build]
@@ -25,7 +25,7 @@ api_version = "2026-07"
 scopes = "write_products,write_metaobjects,write_metaobject_definitions,read_orders"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://profitpulse-production-901b.up.railway.app/auth/callback" ]
 
 [product.metafields.app.demo_info]
 type = "single_line_text_field"
